@@ -11,6 +11,11 @@
 		4F341F3C2C31E61D00A3728C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F3B2C31E61D00A3728C /* ContentView.swift */; };
 		4F341F3E2C31E61E00A3728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F341F3D2C31E61E00A3728C /* Assets.xcassets */; };
 		4F341F422C31E61E00A3728C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F341F412C31E61E00A3728C /* Preview Assets.xcassets */; };
+		4F341F4A2C31E64700A3728C /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 4F341F492C31E64700A3728C /* Vortex */; };
+		4F341F4D2C31E66C00A3728C /* VortexSystem+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F4C2C31E66700A3728C /* VortexSystem+extensions.swift */; };
+		4F341F502C31E69C00A3728C /* RippleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F4F2C31E69C00A3728C /* RippleModifier.swift */; };
+		4F341F522C31E6BF00A3728C /* Ripple.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F512C31E6BF00A3728C /* Ripple.metal */; };
+		4F341F552C31E9FE00A3728C /* ShakeTextRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F542C31E9FE00A3728C /* ShakeTextRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,10 @@
 		4F341F3D2C31E61E00A3728C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F341F3F2C31E61E00A3728C /* FourthOfJuly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FourthOfJuly.entitlements; sourceTree = "<group>"; };
 		4F341F412C31E61E00A3728C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F341F4C2C31E66700A3728C /* VortexSystem+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VortexSystem+extensions.swift"; sourceTree = "<group>"; };
+		4F341F4F2C31E69C00A3728C /* RippleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleModifier.swift; sourceTree = "<group>"; };
+		4F341F512C31E6BF00A3728C /* Ripple.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Ripple.metal; sourceTree = "<group>"; };
+		4F341F542C31E9FE00A3728C /* ShakeTextRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeTextRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F341F4A2C31E64700A3728C /* Vortex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +64,9 @@
 			children = (
 				4F341F392C31E61D00A3728C /* FourthOfJulyApp.swift */,
 				4F341F3B2C31E61D00A3728C /* ContentView.swift */,
+				4F341F532C31E9EB00A3728C /* TextRenderer */,
+				4F341F4E2C31E68900A3728C /* Ripple */,
+				4F341F4B2C31E64D00A3728C /* Vortex Extensions */,
 				4F341F3D2C31E61E00A3728C /* Assets.xcassets */,
 				4F341F3F2C31E61E00A3728C /* FourthOfJuly.entitlements */,
 				4F341F402C31E61E00A3728C /* Preview Content */,
@@ -67,6 +80,31 @@
 				4F341F412C31E61E00A3728C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F341F4B2C31E64D00A3728C /* Vortex Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4F341F4C2C31E66700A3728C /* VortexSystem+extensions.swift */,
+			);
+			path = "Vortex Extensions";
+			sourceTree = "<group>";
+		};
+		4F341F4E2C31E68900A3728C /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				4F341F4F2C31E69C00A3728C /* RippleModifier.swift */,
+				4F341F512C31E6BF00A3728C /* Ripple.metal */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		4F341F532C31E9EB00A3728C /* TextRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				4F341F542C31E9FE00A3728C /* ShakeTextRenderer.swift */,
+			);
+			path = TextRenderer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +123,9 @@
 			dependencies = (
 			);
 			name = FourthOfJuly;
+			packageProductDependencies = (
+				4F341F492C31E64700A3728C /* Vortex */,
+			);
 			productName = FourthOfJuly;
 			productReference = 4F341F362C31E61D00A3728C /* FourthOfJuly.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +154,9 @@
 				Base,
 			);
 			mainGroup = 4F341F2D2C31E61D00A3728C;
+			packageReferences = (
+				4F341F482C31E64700A3728C /* XCRemoteSwiftPackageReference "Vortex" */,
+			);
 			productRefGroup = 4F341F372C31E61D00A3728C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,6 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F341F3C2C31E61D00A3728C /* ContentView.swift in Sources */,
+				4F341F522C31E6BF00A3728C /* Ripple.metal in Sources */,
+				4F341F4D2C31E66C00A3728C /* VortexSystem+extensions.swift in Sources */,
+				4F341F502C31E69C00A3728C /* RippleModifier.swift in Sources */,
+				4F341F552C31E9FE00A3728C /* ShakeTextRenderer.swift in Sources */,
 				4F341F3A2C31E61D00A3728C /* FourthOfJulyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +409,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F341F482C31E64700A3728C /* XCRemoteSwiftPackageReference "Vortex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Vortex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F341F492C31E64700A3728C /* Vortex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F341F482C31E64700A3728C /* XCRemoteSwiftPackageReference "Vortex" */;
+			productName = Vortex;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4F341F2E2C31E61D00A3728C /* Project object */;
 }
