@@ -1,4 +1,4 @@
-Just a fun project that creates the view below using Vortex (particle system), Metal Shaders, and the new iOS 18 TextRenderer
+Creates the view below using Vortex (particle system), Metal Shaders, and the new iOS 18 TextRenderer
 
 <p align="center">
 <kbd>
