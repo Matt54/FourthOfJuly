@@ -1,7 +1,7 @@
 import SwiftUI
 import Vortex
 
-struct ContentView: View {
+struct FourthOfJulyView: View {
     var body: some View {
         ZStack {
             VStack {
@@ -83,5 +83,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    FourthOfJulyView()
 }

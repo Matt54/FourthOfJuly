@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F341F3A2C31E61D00A3728C /* FourthOfJulyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F392C31E61D00A3728C /* FourthOfJulyApp.swift */; };
-		4F341F3C2C31E61D00A3728C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F3B2C31E61D00A3728C /* ContentView.swift */; };
+		4F341F3C2C31E61D00A3728C /* FourthOfJulyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F341F3B2C31E61D00A3728C /* FourthOfJulyView.swift */; };
 		4F341F3E2C31E61E00A3728C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F341F3D2C31E61E00A3728C /* Assets.xcassets */; };
 		4F341F422C31E61E00A3728C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F341F412C31E61E00A3728C /* Preview Assets.xcassets */; };
 		4F341F4A2C31E64700A3728C /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = 4F341F492C31E64700A3728C /* Vortex */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		4F341F362C31E61D00A3728C /* FourthOfJuly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourthOfJuly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F341F392C31E61D00A3728C /* FourthOfJulyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthOfJulyApp.swift; sourceTree = "<group>"; };
-		4F341F3B2C31E61D00A3728C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F341F3B2C31E61D00A3728C /* FourthOfJulyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthOfJulyView.swift; sourceTree = "<group>"; };
 		4F341F3D2C31E61E00A3728C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F341F3F2C31E61E00A3728C /* FourthOfJuly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FourthOfJuly.entitlements; sourceTree = "<group>"; };
 		4F341F412C31E61E00A3728C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				4F341F392C31E61D00A3728C /* FourthOfJulyApp.swift */,
-				4F341F3B2C31E61D00A3728C /* ContentView.swift */,
+				4F341F3B2C31E61D00A3728C /* FourthOfJulyView.swift */,
 				4F341F532C31E9EB00A3728C /* TextRenderer */,
 				4F341F4E2C31E68900A3728C /* Ripple */,
 				4F341F4B2C31E64D00A3728C /* Vortex Extensions */,
@@ -183,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F341F3C2C31E61D00A3728C /* ContentView.swift in Sources */,
+				4F341F3C2C31E61D00A3728C /* FourthOfJulyView.swift in Sources */,
 				4F341F522C31E6BF00A3728C /* Ripple.metal in Sources */,
 				4F341F4D2C31E66C00A3728C /* VortexSystem+extensions.swift in Sources */,
 				4F341F502C31E69C00A3728C /* RippleModifier.swift in Sources */,

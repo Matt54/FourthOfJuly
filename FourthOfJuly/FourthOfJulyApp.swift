@@ -4,7 +4,7 @@ import SwiftUI
 struct FourthOfJulyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FourthOfJulyView()
         }
     }
 }
